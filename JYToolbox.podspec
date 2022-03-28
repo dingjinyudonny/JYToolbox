@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/dingjinyudonny/JYToolbox'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '丁进宇' => 'dingjinyuit@163.com' }
-  s.source           = { :git => 'https://github.com/dingjinyudonny/JYToolbox.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:dingjinyudonny/JYToolbox.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.source_files = 'JYToolbox/Classes/**/*.{h,m}'
   # s.resource_bundles = {
